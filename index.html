@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudArc</title>
+    <link rel="icon" href="./cloudarc-favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="bg-light">
+    
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="cloudarc-logo-transparent.png" width="200px"
+                    alt="CloudArc Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Features</a>
+                    <a class="nav-link" href="#StoreFileOrFolder">Store</a>
+                    <a class="nav-link" href="#Protect-Your-data">Security</a>
+                    <a class="nav-link" href="#RecoverFiles">Recover</a>
+                </div>
+                
+                <div class="navbar-nav align-items-end ms-auto">
+                    <button type="button" class="btn btn-primary m-1" data-bs-toggle="modal"
+                        data-bs-target="#loginModal">
+                        Login
+                    </button>
+                    <button type="button" class="btn btn-primary m-1" data-bs-toggle="modal"
+                        data-bs-target="#signupModal">
+                        SignUp
+                    </button>
+                </div>
+            </div>
+           
+        </div>
+    </nav>
+
+
+<!-- End of Navbar -->
+
+
+<!-- Home Page -->
+<section class="container-fluid">
+    <div class="p-4 align-items-center text-center shadow-sm">
+        <h1 class="heading1">The secure cloud storage and file sharing you trust</h1>
+        <p>Connect all your devices. Restore deleted files. Deliver large files.</p>
+    </div>
+</section>
+
+
+<!-- Content -->
+<section class="container-fluid contentsection">
+<!-- Security Banner -->
+
+<section class=" row mt-5 align-items-center text-center flex" id="security">
+    
+    
+
+    
+    <div class="col-sm-5 security-div p-3">
+        <h2>Secure cloud storage for all your files</h1>
+        <p>Documents, photos, videos and more—keep all your files and folders safe in online cloud storage</p>
+        <button type="button" class="btn btn-primary rounded p-2" data-bs-toggle="modal"
+        data-bs-target="#signupModal">Get Started</button>
+    </div>
+
+    <div class="col-sm-7 banner-img">
+        <img src="Cloud-Security.png" width="100%" padding="2px" alt="Cloud Security">
+    </div>
+
+</section>
+
+
+<!-- Store File Or Folder -->
+<section class=" row mt-5 align-items-center text-center flex" id="StoreFileOrFolder">
+    
+
+    <div class="col-sm-7 banner-img">
+        <img src="FilwStorage-web-background-design.png" width="100%" height="500px" alt="StoreFileOrFolder">
+    </div>
+
+    <div class="col-sm-5 text-center p-3">
+        <h2>Store any file or folder</h2>
+        <p>No matter the file or folder you’re trying to save—from photos and videos to large CAD files and PowerPoint presentations—you can store it safely using cloud storage solutions from CloudArc.</p>
+    </div>
+</section>
+
+
+<!-- Access Files -->
+<section class=" row mt-5 align-items-center text-center flex" id="AccessFiles">
+    
+
+    <div class="col-sm-5 text-center p-3">
+        <h2>Access your files from multiple devices</h2>
+        <p>CloudArc offers one central hub for online file storage, file sharing, and syncing. Whether you’re at work or on the road, your files are synced across your devices and accessible in real time. Access your CloudArc account with desktop apps on Windows and Mac, our mobile app for iOS or Android devices, and on the web through your browser.</p>
+    </div>
+
+    <div class="col-sm-7 banner-img ">
+        <img src="AccessFiles.png" width="100%" alt="AccessFiles">
+    </div>
+
+</section>
+
+<!-- Protect Data Banner -->
+<section class=" row mt-5 align-items-center text-center flex" id="Protect-Your-data">
+    
+
+    <div class="col-sm-7 banner-img ">
+        <img src="Protect-data.png" width="100%"  alt="Protect-Data">
+    </div>
+
+    <div class="col-sm-5 text-center p-3">
+        <h2>Protect your data</h2>
+        <p>If your device is lost or stolen, rest easy knowing your data’s safe. Remote wipe lets you clear all the files and folders from your missing device’s CloudArc account. All of your files are securely saved in cloud storage and easily retrievable.</p>
+    </div>
+</section>
+
+<!-- Recover your files -->
+
+<section class=" row mt-5 align-items-center text-center flex" id="RecoverFiles">
+    
+
+    
+    <div class="col-sm-5 security-div p-3">
+        <h2>Recover your files</h2>
+        <p>Accidentally delete a file or save a new version of a file you’re not happy with? No problem. CloudArc stores copies of all deleted files and folders for 30 days—or as many as 180 days for CloudArc Standard, Advanced, and Enterprise plans. This includes previous versions of files, so you can easily recover them.</p>
+        <p>We also provide confirmation warnings on the desktop when team members move or delete files. They’ll know what happens when they take action, and fewer files will be lost accidentally.</p>
+    </div>
+
+    <div class="col-sm-7 banner-img">
+        <img src="RecoverYourFiles.png" width="100%" padding="2px" alt="RecoverFiles">
+    </div>
+
+</section>
+
+<!-- Organize, browse and share photos -->
+
+<section class=" row mt-5 align-items-center text-center flex" id="Organize, browse and share photos">
+
+
+    <div class="col-sm-7 banner-img ">
+        <img src="OrganizeFiles.png" width="100%"  alt="OrganizeFiles">
+    </div>
+
+    <div class="col-sm-5 text-center p-3">
+        <h2>Organize, browse and share photos from one safe space</h2>
+
+        <p>Keep those memories safe in our secure cloud photo storage. Family gatherings, holiday snaps, team bonding sessions, embarrassing baby photos—you name it! cloud arc makes it easy to backup, organize and share your photos, wherever you are.</p>
+    </div>
+</section>
+</section>
+
+<!-- See more feactures -->
+<section class="container-fluid mt-5  text-center" id="SeeMoreFeatures">
+<h1 class="heading1">See more features</h1>
+
+<div class="row  d-flex justify-content-between mt-4">
+
+    <div class="col-sm-3 ">
+        <div class="card-heading-img banner-img">
+            <img src="FileSharing.png" width="100%" height="200px" alt="FileSharing">
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Secure File Sharing</h4>
+            <p class="card-text">Share any file or folder easily with anyone, hassle free</p>
+        </div>
+    </div>
+
+    <div class="col-sm-3">
+
+        <div class="card-heading-img banner-img">
+            <img src="Productivity tools.png" width="100%" height="200px" alt="Productivity">
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Productivity tools</h4>
+            <p class="card-text">Use cloud arc tools to be more productive in the workplace</p>
+        </div>
+    </div>
+
+    <div class="col-sm-3">
+
+        <div class="card-heading-img banner-img">
+            <img src="Online document storage.png" width="100%" height="200px" alt="Online Documents">
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Online document storage</h4>
+            <p class="card-text">Manage documents online with simple and secure cloud storage</p>
+        </div>
+    </div>
+
+    <div class="col-sm-3">
+
+        <div class="card-heading-img banner-img">
+            <img src="File backup.png" width="100%" height="200px" alt="File backup">
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">File backup</h4>
+            <p class="card-text">Back up your files simply and securely to protect against data loss</p>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+
+
+<footer class="text-center text-white mt-3" style="background-color: #14191d;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Register for free</span>
+          <button type="button"  class="btn btn-outline-light btn-rounded" data-bs-toggle="modal"
+          data-bs-target="#signupModal">
+            Sign up!
+          </button>
+        </p>
+      </section>
+     
+    </div>
+    
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2024 Copyright:
+      <a class="text-white" href="#">CloudArc</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+
+
+      <!-- Login Modal -->
+      <div class="modal fade" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/check" method="post">
+                        <!-- Email input -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <!-- Password -->
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password" placeholder="Enter your password"
+                                required>
+                        </div>
+
+                        <!-- 2 column grid layout for inline styling -->
+                        <div class="row mb-4">
+                            
+                            <div class="col">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal" >Not you? Sign up!</a>
+                            </div>
+                            
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="Submit" class="btn btn-primary btn-block mb-4">Login</button>
+                        <button type="button" class="btn btn-danger  btn-block mb-4"
+                            data-bs-dismiss="modal">Close</button>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal fade" id="signupModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+                    <form class="mx-1 mx-md-4" action="/check2" method="post">
+
+
+                        <div class="mb-3">
+                            <label for="AdminPin" class="form-label">AdminPin</label>
+                            <input type="number" class="form-control" name="adminpin" placeholder="Enter AdminPin"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Enter your email"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password"
+                                placeholder="Enter your password" required>
+                        </div>
+                        <div class="row mb-4">
+                            
+                            <div class="col">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-dismiss="modal">Already Registered! Login</a>
+                            </div>
+                            
+                        </div>
+                        <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                            <button type="submit" class="btn btn-primary btn-block mb-4" id="register">SignUp</button>
+                            <button type="button" class="btn btn-danger  btn-block mb-4 ms-2"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script src="data.js"></script>
+
+   
+</body>
+
+</html>
